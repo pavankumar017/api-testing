@@ -14,7 +14,7 @@ def build_payload_fromDB():
     addBody = {}
     db_resp = get_query()
     print(db_resp)   
-    addBody['name'] = db_resp[0]
+    addBody['name'] = db_resp[0]   
     addBody['isbn'] = db_resp[1]
     addBody['aisle'] = db_resp[2]
     addBody['author'] = db_resp[3]

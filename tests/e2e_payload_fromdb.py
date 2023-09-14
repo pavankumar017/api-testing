@@ -1,4 +1,4 @@
-# e2e_payload_fromdb.py
+# e2e_payload_fromdb.py  - here we are getting data from DB and then creating a dictionary dynamically 
 
 import requests
 from payload import *
